@@ -57,7 +57,7 @@ No backend or database required.
 ## Screenshots
 
 ![Dark Kitchen 1](darkK1.png)  
-![Dark Kitchen 2](darkK2.png)   
+![Dark Kitchen 2](DarkK2.png)   
 
 
 ## Live Demo
