@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/8af7231da6.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Dark Kitchen Project</title>
+  </head>
+  <body>
+    <div id="hero">
+      <img
+        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.zahlirestaurant.com%2Fwp-content%2Fuploads%2F2021%2F07%2Flebanese-food-1.jpg&f=1&nofb=1&ipt=6395c4d399733016ed41b11256ce32db950a3b11138d2bd0402d66a1e8d05846&ipo=images"
+        alt="food"
+        id="mainPic"
+      />
+      <h1 id="heroTitle">Organic</h1>
+    </div>    
+
+    <div id="myPage">
+      <main>
+        <header>
+          <div id="header">
+            <div id="hamburger"><i class="fa-sharp fa-solid fa-bars"></i></div>
+            <!--<h1>Organic</h1>-->
+          </div>
+          <label class="switch">
+            <input type="checkbox" onclick="darkmode()" />
+            <span class="slider round"></span>
+          </label>
+        </header>
+        <div id="menu">
+          <button id="all" class="categories">All</button>
+          <button id="starters" class="categories">Starters</button>
+          <button id="desserts" class="categories">Desserts</button>
+                    <!-- <label for="diet">Diet</label> -->
+          <!-- <input type="submit" value="submit" /> -->
+          </form>
+          <!--           <button id="filter" class="categories">
+          <i class="fa-regular fa-filter"></i>
+          </button> -->
+          <!-- <button id="filter" class="categories">
+            <i class="fa-regular fa-filter"></i>
+          </button> -->
+        </div>
+        <div>
+          <div id="options">
+            <h2>Select an option</h2>
+            <select name="diets" id="diets">
+              <option value="diets">--Diet --</option>
+              <option value="glutenFree">Gluten free</option>
+              <option value="lactoseFree">Lactose free</option>
+              <option value="vegan">Vegan</option>
+            </select>
+          </div>
+          <div id="mealsContainer"></div>
+        </div>
+      </main>
+      <aside>
+        <div id="asideHeader">
+          <div id="profilePicture"><i class="fa-regular fa-user"></i></div>
+          <p id="name">Surname Name</p>
+        </div>
+        <div id="order">
+          <div id="myOrder">
+            <h3>My Order</h3>
+            <p id="pencil"><i class="fas fa-pencil"></i></p>
+          </div>
+          <div id="recap"></div>
+          <p classe="line"></p>
+          <div id="total">Total amount :</div>
+          <button id="checkout">Checkout</button>
+        </div>
+      </aside>
+    </div>
+    <script src="darkK.js"></script>
+  </body>
+</html>
+
+<!-- impossible de mettre mes picto de fontawesome, pq? -->
